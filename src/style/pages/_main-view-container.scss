@@ -1,0 +1,16 @@
+.main-view-container {
+    .header-dashboard {
+        margin-bottom: 34px;
+    }
+    
+    .main-content-view {
+        background-color: #fff;
+        border-radius: 8px;
+        max-height: 728px;
+        // overflow: hidden;
+
+        &.jadwal-mengajar {
+            margin-bottom: 24px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.main-view-container {
+    .jadwal-presensi {
+
+        .filter-container {
+            background-color: #fff;
+            padding: 32px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .list-jadwal-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 32px;
+            height: 190px;
+            margin-bottom: 24px;
+
+            .jadwal {
+                display: flex;
+                gap: 50px;
+                // align-items: center;
+
+                .left-section {
+                    p {
+                        font-size: 24px;
+                        font-weight: bold;
+                        font-family: 'Quicksand';
+                        margin-bottom: 47px;
+                    }
+                }
+
+                .separator {
+                    height: 124px;
+                    width: 1px;
+                    background-color: rgba(4, 10, 34, 0.35);;
+                }
+
+                .right-section {
+                    display: flex;
+                    gap: 120px;
+
+                    .inside-section {
+                        .inside-wrapper {
+                            margin-bottom: 16px;
+
+                            .title {
+                                margin-bottom: 6px;
+                            }
+
+                            .value {
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+
+  .title-page {
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      font-family: Quicksand;
+      margin: 0;
+    }
+  }
+
+  .tile-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    user-select: none;
+
+    .nama-role {
+      text-align: right;
+      .nama {
+        font-family: Quicksand;
+        font-weight: 600;
+      }
+
+      .role {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: Poppins;
+        text-transform: capitalize;
+      }
+    }
+
+    .profile-pict {
+      width: 42px;
+      height: 42px;
+      background-color: #c77100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      cursor: pointer;
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .pop-up {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: 0px 0px 20px 10px rgba(46, 49, 59, 0.1);
+      position: absolute;
+      top: 50px;
+      right: 0;
+      display: none;
+
+      &.open {
+        display: flex;
+      }
+
+      p {
+        color: #FD5D5D;
+        font-family: Quicksand;
+        font-weight: bold;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-radius: 8px;
+        transition: .2s ease;
+
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

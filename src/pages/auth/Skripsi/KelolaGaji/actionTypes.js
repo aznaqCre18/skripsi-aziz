@@ -1,0 +1,2 @@
+export const GET_DATA_GAJI = "GET_DATA_GAJI";
+export const GET_DATA_GAJI_BY_ID_GURU = "GET_DATA_GAJI_BY_ID_GURU";

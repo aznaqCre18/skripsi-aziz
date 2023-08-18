@@ -1,0 +1,20 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px  ;
+
+    label {
+        margin-bottom: 2px;
+        font-size: 14px;
+        color: #040A22;
+        font-family: Poppins;
+    }
+
+    input {
+        height: 48px;
+        border-radius: 8px;
+        background-color: none;
+        border: 2px solid #4F81FD;
+        padding: 0 16px;
+    }
+}

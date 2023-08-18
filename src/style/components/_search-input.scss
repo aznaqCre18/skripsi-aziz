@@ -1,0 +1,20 @@
+.search-field-container {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 14px;
+        left: 14px;
+    }
+
+    input {
+        width: 282px;
+        height: 48px;
+        background-color: transparent;
+        border-radius: 8px;
+        border: 2px solid #AEAEAE;
+        font-size: 14px;
+        padding-left: 50px;
+        outline-color: #3C5BE9;
+    }
+}

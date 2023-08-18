@@ -1,0 +1,2 @@
+export const GET_DATA_JABATAN = "GET_DATA_JABATAN";
+export const ADD_DATA_JABATAN = "ADD_DATA_JABATAN";

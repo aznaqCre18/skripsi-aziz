@@ -1,0 +1,64 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(116.75deg, #4D77FF 5.88%, #56BBF1 134.04%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    .login-form-wrapper {
+        width: 444px;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 32px 42px 52px 42px;
+        z-index: 10;
+
+        .welcome-wording {
+            margin-bottom: 24px;
+    
+            p {
+                text-align: center;
+                color: #040A22;
+                font-family: Quicksand;
+                font-size: 20px;
+                font-weight: 600;
+    
+                &:nth-child(1) {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        p.title {
+            font-size: 28px;
+            font-family: Quicksand;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .form {
+            .dropdown-section {
+                margin-bottom: 38px;
+                margin-top: 38px;
+            }
+        }
+    }
+
+    .siswa1, .siswa2 {
+        position: absolute;
+    }
+
+    .siswa1 {
+        top: -180px;
+        left: -100px;
+    }
+
+    .siswa2 {
+        bottom: -180px;
+        right: -174px;
+    }
+}

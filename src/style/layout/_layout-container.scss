@@ -1,0 +1,165 @@
+.layout-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    .sidebar {
+        width: 20%;
+        min-width: 284px;
+        height: 100%;
+        background-color: #3C5BE9;
+        padding: 40px 16px;
+        overflow: auto;
+        user-select: none;
+
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+  
+        &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: transparent;
+        border-radius: 2px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+        background-color: #8a93a3;
+        }
+
+        .title-school {
+            font-size: 26px;
+            font-weight: 600;
+            font-family: Quicksand;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 42px;
+        }
+
+        .menu-container {
+            a {
+                text-decoration: none;
+                color: #040A22;
+            }
+
+            .menu-wrapper {
+                display: flex;
+                height: 59px;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #fff;
+                border-radius: 8px;
+                margin-bottom: 14px;
+                padding: 0 16px;
+
+                // &.with-submenu {
+                //     margin-bottom: 0;
+                // }
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                .standar {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    
+                    .circle-sign {
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: #3C5BE9;
+                        display: none;
+    
+                        &.active {
+                            display: block;
+                        }
+                    }
+    
+                    img {
+                        width: 24px;
+                    }
+    
+                    p {
+                        font-family: Quicksand;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .container-submenu {
+                background-color: #fff;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+                margin-bottom: 14px;
+                margin-top: -20px;
+                display: block;
+
+                ul {
+                    padding: 20px 0;
+                    li {
+                        list-style-type: none;
+                        margin-bottom: 16px;
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        padding: 0 32px;
+                        height: 42px;
+
+                        .circle-sign {
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background-color: #3C5BE9;
+                            opacity: 0;
+        
+                            &.active {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+
+                &.hide {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .main-content {
+        width: 80%;
+        height: 100%;
+        background-color: #E7EDF7;
+        padding: 40px 36px;
+        overflow: auto;
+
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+    
+        &::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+            background-color: transparent;
+            border-radius: 2px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #8a93a3;
+        }
+    }
+}
+
+.circle-sign {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3C5BE9;
+    opacity: 0;
+
+    &.active {
+        opacity: 1;
+    }
+}

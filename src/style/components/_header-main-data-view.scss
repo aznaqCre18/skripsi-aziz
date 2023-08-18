@@ -1,0 +1,10 @@
+.tools {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+
+    div.btn-group-tools {
+        display: flex;
+        gap: 12px;
+    }
+}

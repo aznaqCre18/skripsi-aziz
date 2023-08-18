@@ -1,0 +1,1 @@
+export const GET_DATA_MAPEL = "GET_DATA_MAPEL";

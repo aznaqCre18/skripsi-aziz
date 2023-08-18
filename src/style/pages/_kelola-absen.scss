@@ -1,0 +1,15 @@
+.main-view-container {
+    .search-wrapper {
+        background-color: #fff;
+        padding: 18px 24px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        width: fit-content;
+    }
+
+    .list-jadwal {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

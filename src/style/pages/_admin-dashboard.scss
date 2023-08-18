@@ -1,0 +1,87 @@
+.container-dashboard-admin {
+    .header-section {
+        margin-bottom: 18px;
+    }
+
+    .main-content-data {
+        .dropdown-thn-section {
+            margin-bottom: 18px;
+        }
+
+        .banner-welcome {
+            text-align: center;
+            background-color: #fff;
+            padding: 34px 0;
+            border-radius: 20px;
+
+            h3 {
+                font-size: 28px;
+                font-weight: 600;
+                font-family: Quicksand;
+            }
+
+            img {
+                margin: 36px 0;
+            }
+
+            h5 {
+                font-size: 28px;
+                font-weight: 600;
+                font-family: Quicksand;
+                margin-bottom: 12px;
+            }
+
+            .alamat {
+                p {
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            &.other {
+                padding: 28px 38px;
+
+                h3 {
+                    text-align: left;
+                    font-size: 24px;
+                    margin-bottom: 24px;
+                }
+
+                .data-diri {
+                    display: flex;
+                    gap: 80px;
+                    table {
+                        min-width: 500px;
+                        tbody {
+                            tr {
+                                td {
+                                    text-align: left;
+                                    padding-right: 42px;
+                                    padding-bottom: 12px;
+                                }
+
+                                th {
+                                    text-align: left;
+                                    font-weight: 500;
+                                    padding-bottom: 12px;
+                                }
+                            }
+                        }
+                    }
+
+                    table.table-2 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .wrapper-menu-button {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        margin-top: 32px;
+    }
+}

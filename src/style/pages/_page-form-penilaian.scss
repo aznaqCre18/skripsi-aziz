@@ -1,0 +1,37 @@
+.table-section-nilai {
+  table {
+    width: 100%;
+    tr {
+      height: 55px;
+      th, td {
+        padding: 0 32px;
+      }
+
+      &.row-head {
+        background-color: #F5F6F8;
+
+        th {
+          font-family: 'Quicksand';
+          font-weight: bold;
+        }
+      }
+
+      td {
+        input {
+          height: 36px;
+          width: 96px;
+          border-radius: 4px;
+          border: 1px solid #4D77FF;
+          padding-left: 12px;
+
+          &[type=number]::-webkit-inner-spin-button, 
+          &[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none; 
+          }
+        }
+      }
+    }
+  }
+}

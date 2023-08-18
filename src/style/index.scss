@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import 'node_modules/react-toastify/scss/main';
+
+@import './components/toastify';
+// @import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+p {
+  margin: 0 !important;
+}
+
+//color
+$primary: #0C145A;
+$secondary: #7E8CAC;
+$btnPrimary: #4D17E2;
+$white: #FFF;
+
+//layout
+@import './layout/layout-container';
+
+//pages
+@import './pages/login';
+@import './pages/admin-dashboard';
+@import './pages/main-view-container';
+@import './pages/jadwal-presensi';
+@import './pages/page-form-penilaian';
+@import './pages/kelola-absen';
+
+//components
+@import './components/header';
+@import './components/button';
+@import './components/movie-list';
+@import './components/input';
+@import './components/dropdown';
+@import './components/loading';
+@import './components/button-menu-dashboard';
+@import './components/header-main-data-view';
+@import './components/search-input';
+@import './components/table';
+@import './components/radio-button';
+@import './components/card-absen';

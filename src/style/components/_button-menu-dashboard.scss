@@ -1,0 +1,102 @@
+.btn-menu-dashboard-container {
+    background-color: red;
+    width: 100%;
+    border-radius: 10px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &.success {
+        background: linear-gradient(108.14deg, #34BE82 33.13%, #2FDD92 96.48%);
+    }
+
+    &.info {
+        background: linear-gradient(108.66deg, #4D77FF 30.05%, #56BBF1 96.51%);
+    }
+    &.danger {
+        background: linear-gradient(107.7deg, #FD5D5D 35.79%, #FF8080 96.46%);
+    }
+    &.warning {
+        background: linear-gradient(108.47deg, #FFB72B 31.24%, #FFE61B 96.5%);
+    }
+
+    .arrow-right {
+        width: 20px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .btn-content {
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        align-items: center;
+        padding: 0 28px;
+
+        .count-cat {
+            color: #fff;
+            .count {
+                font-size: 26px;
+                font-weight: bolder;
+                font-family: Quicksand;
+            }
+
+            .cat {
+                font-weight: 500;
+                font-family: Quicksand;
+            }
+        }
+    }
+}
+
+.other-btn-container {
+    width: 100%;
+    border-radius: 10px;
+    height: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    gap: 20px;
+
+    img.icon-btn {
+        width: 58px;
+    }
+
+    &.success {
+        background: linear-gradient(108.14deg, #34BE82 33.13%, #2FDD92 96.48%);
+    }
+
+    &.info {
+        background: linear-gradient(108.66deg, #4D77FF 30.05%, #56BBF1 96.51%);
+    }
+    &.danger {
+        background: linear-gradient(107.7deg, #FD5D5D 35.79%, #FF8080 96.46%);
+    }
+    &.warning {
+        background: linear-gradient(108.47deg, #FFB72B 31.24%, #FFE61B 96.5%);
+    }
+
+    .content {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p {
+            font-family: Quicksand;
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 4px;
+        }
+
+        .description {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.wrapper-movie {
+  .cover {
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+    position: relative;
+    
+    img {
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .rate {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 6px;
+      background-color: $primary;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+      p {
+        font-size: 12px;
+        color: $white;
+      }
+    }
+
+    .desc-film {
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(358.99deg, rgba(0, 0, 0, 0.87) 1.12%, rgba(0, 0, 0, 0) 99.4%);
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+
+      p.title {
+        margin: 10px;
+        font-size: 12px;
+        color: $white;
+      }
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

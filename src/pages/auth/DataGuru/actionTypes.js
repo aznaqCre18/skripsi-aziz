@@ -1,0 +1,1 @@
+export const GET_DATA_GURU = 'GET_DATA_GURU';

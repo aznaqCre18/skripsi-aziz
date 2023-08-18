@@ -1,0 +1,65 @@
+.card-wrapper {
+    width: 500px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px 25px;
+
+    .info-jadwal {
+        .top-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .info {
+                .mapel {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+            }
+
+            .btn-set-absen {
+                button {
+                    background-color: #FFB72B;
+                    border-radius: 4px;
+                    border: none;
+                    padding: 8px 12px;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .2s ease-in-out;
+                    
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+
+        .divider {
+            border-top: 1px solid #E4E4E4;
+            margin: 8px 0;
+        }
+
+        .bottom-section {
+            .status-absen {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                p {
+                    font-weight: 500;
+                }
+
+                .label {
+                    background-color: #FD5D5D;
+                    padding: 6px 12px;
+                    color: #fff;
+                    border-radius: 4px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

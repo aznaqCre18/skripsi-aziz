@@ -1,0 +1,1 @@
+export const GET_ALL_DATA_SISWA = "GET_ALL_DATA_SISWA";
